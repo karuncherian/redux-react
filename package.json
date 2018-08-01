@@ -1,0 +1,19 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "Learn redux",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
