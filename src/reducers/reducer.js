@@ -1,10 +1,10 @@
 import { formActions } from "../actions";
 
 const initialState = {
-  FirstName: "",
-  LastName: "",
-  Age: "",
-  Place: ""
+  FirstName: "d",
+  LastName: "f",
+  Age: 5,
+  Place: "fg"
 };
 const reducer = (state = initialState, action) => {
   switch (action.type) {
