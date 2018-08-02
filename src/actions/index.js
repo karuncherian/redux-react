@@ -1,10 +1,10 @@
-export const buttonClicked = (firstname, lastname, age, place) => ({
-  type: 'BUTTON_CLICKED',
-  f_name: firstname,
-  l_name: lastname,
-  f_age: age,
-  f_place: place
+export const buttonClicked = (firstName, lastName, age, place) => ({
+  type: formActions.BUTTON_CLICKED,
+  actionFirstName: firstName,
+  actionLastName: lastName,
+  actionAge: age,
+  actionPlace: place
 });
-export const exampleActions = {
+export const formActions = {
   BUTTON_CLICKED: 'BUTTON_CLICKED'
 };
