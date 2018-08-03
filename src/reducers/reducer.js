@@ -1,23 +1,23 @@
 import { formActions } from "../actions";
 
 const initialState = {
-  FirstName: "d",
-  LastName: "f",
-  Age: 5,
-  Place: "fg"
+    FirstName: "",
+    LastName: "",
+    Age: "",
+    Place: ""
 };
 const reducer = (state = initialState, action) => {
-  switch (action.type) {
+    switch (action.type) {
     case formActions.BUTTON_CLICKED:
-      return {
-        ...state,
-        FirstName: action.actionFirstName,
-        LastName: action.actionLastName,
-        Age: action.actionAge,
-        Place: action.actionPlace
-      };
+        return {
+            ...state,
+            FirstName: action.actionFirstName,
+            LastName: action.actionLastName,
+            Age: action.actionAge,
+            Place: action.actionPlace
+        };
     default:
-      return state;
-  }
-}
+        return state;
+    }
+};
 export default reducer;

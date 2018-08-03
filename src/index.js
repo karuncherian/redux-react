@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import rootReducer from '../src/reducers';
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import rootReducer from "../src/reducers";
 import App from "./routes";
 
 const store = createStore(rootReducer);
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  rootElement
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    rootElement
 );
